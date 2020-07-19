@@ -1,5 +1,6 @@
 # Smartrist
 Smartrist card application
+This application is for students. It contains a dynamic & unique student card. Students can scan this card to give attendence, order food, post book requisitions, recharge their e-wallet and update their personal details. An all-in-one card which can be used for all college activities of a student without the fear of forgery by ANY means.
 
 # Screenshots
 
