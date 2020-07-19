@@ -94,4 +94,5 @@ Smartrist-Office:     https://github.com/Arnab-Banerjee-Kolkata/Smartrist-Office
 Smartrist-Attendence: https://github.com/Arnab-Banerjee-Kolkata/Smartrist-Attendence
 Smartrist-Library:    https://github.com/Arnab-Banerjee-Kolkata/Smartrist-Library
 Smartrist-Canteen:    https://github.com/Arnab-Banerjee-Kolkata/Smartrist-Canteen
+Smartrist-Backend:    https://github.com/Arnab-Banerjee-Kolkata/Smartrist-Backend
 </pre>
