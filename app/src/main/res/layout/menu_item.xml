@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/boxbg"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/foodicon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:elevation="5dp"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:id="@+id/foodname"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/century"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="price"
+                android:id="@+id/foodprice"
+                android:fontFamily="@font/century"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/fooddecr"
+                    android:paddingTop="0dp"
+                    android:text="-"
+                    android:textSize="25sp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="@font/century"
+                    android:theme="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/foodcount"
+                    android:fontFamily="@font/century"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"/>
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/century"
+                    android:id="@+id/foodincr"
+                    android:padding="0dp"
+                    android:text="+"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"
+                    android:theme="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/itemFade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7ae98c6a"
+        android:visibility="gone"/>
+</android.support.v7.widget.CardView>

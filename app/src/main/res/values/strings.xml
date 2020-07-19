@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Smartrist</string>
+    <string name="crypter_key">mykey123</string>
+
+    <string name="open_nav">Open navigation drawer</string>
+    <string name="close_nav">Close navigation drawer</string>
+</resources>

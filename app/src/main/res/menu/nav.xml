@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/smart"
+        android:icon="@drawable/ic_smart"
+        android:title="Student Card" />
+    <item android:title="Attendance">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/chk_att"
+                    android:icon="@drawable/ic_chk_att"
+                    android:title="Check Attendance" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Wallet">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/bal"
+                    android:icon="@drawable/ic_bal"
+                    android:title="Check Balance" />
+                <item
+                    android:id="@+id/tran_his"
+                    android:icon="@drawable/ic_tran_his"
+                    android:title="Transaction History" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Canteen">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/order"
+                    android:icon="@drawable/ic_order"
+                    android:title="Order Food" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Library">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/lib_book"
+                    android:icon="@drawable/ic_lib_book"
+                    android:title="Book Requisition" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_late"
+        android:title="Refresh" />
+</menu>
