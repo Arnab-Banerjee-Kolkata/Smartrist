@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -100,7 +101,6 @@ public class StudentHome extends AppCompatActivity implements View.OnClickListen
                     public void onResponse(String response)
                     {
                         JSONObject jsonResponse= null;
-                        //msg.setText(response);
                         homeWait.setVisibility(View.GONE);
                         makeWindowResponsive();
                         try {
